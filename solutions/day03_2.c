@@ -90,6 +90,8 @@ int main() {
            ctr = 0;
        }
     }
+    free(first_rucksack);
+    free(second_rucksack);
     free(current_rucksack);
     printf("sum of priorities: %u\n", priority_sum);
     
