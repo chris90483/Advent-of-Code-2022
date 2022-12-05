@@ -107,6 +107,7 @@ int main() {
                    empty_stack->top_crate_content = NOTHING;
                    empty_stack->rest_of_the_stack = NULL;
                    
+                   // because of the order of the puzzle input we build stacks top-to-bottom.
                    struct Stack *stack_to_insert_into = stacks[i / 4];
                    while (stack_to_insert_into->top_crate_content != NOTHING) {
                        stack_to_insert_into = stack_to_insert_into->rest_of_the_stack;
