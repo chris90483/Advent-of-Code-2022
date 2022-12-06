@@ -8,6 +8,6 @@ dag|part 1|part 2
 3  | *    | *
 4  | *    | *
 5  | *    | *
+6  | *    | *
 
-https://user-images.githubusercontent.com/23078165/205078728-03f8f19d-a555-4e00-97e6-91791b3af3a6.mp4
-
+https://www.youtube.com/watch?v=H4YRPdRXKFs
