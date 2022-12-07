@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #define BUFFER_SIZE 13
@@ -31,7 +32,7 @@ int relative_index(int index, int offset);
 int unique_in(char c, char* buf);
 
 int main() {
-    FILE *puzzle_input_file_ptr = fopen("..\\inputs\\day06.txt", "r");
+    FILE *puzzle_input_file_ptr = fopen("..\\inputs\\bigboy\\day06.txt", "r");
     if (puzzle_input_file_ptr == NULL) {
         printf("Unable to open puzzle input\n");
         return 1;
@@ -53,7 +54,7 @@ int main() {
             continue;
         }
         if (marker_found) {
-            continue;
+            exit(0);
         }
         
         if (unique_in(current_char, last_13_chars)) {
