@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include "lib/util.h"
 
 #define MAX_INPUT_LINE_LENGTH 150
 #define MAX_INPUT_AMOUNT_LINES 150
@@ -15,15 +16,6 @@ struct Tree {
     int height;
     struct Tree **neighbours;
 };
-
-void *safe_malloc(size_t size) {
-    void *ptr = malloc(size);
-    if (ptr == NULL) {
-        printf("out of memory, download more RAM\n");
-        exit(1);
-    }
-    return ptr;
-}
 
 size_t scenic_score_of(struct Tree* tree) {
     size_t scenic_score = 1;
