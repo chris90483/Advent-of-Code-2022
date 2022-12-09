@@ -10,5 +10,6 @@ dag|part 1|part 2
 5  | *    | *
 6  | *    | *
 7  | *    | *
+8  | *    | *
 
 https://www.youtube.com/watch?v=H4YRPdRXKFs
